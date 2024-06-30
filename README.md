@@ -42,9 +42,9 @@ The Process consisted of a 3 stage pipeline:
 - Encoder Pruning did not bring much degradation in model performance. This may be due to the fact that most of the encoder weights were necessary to encode important information regarding the image.
 - This can be avoided with some more fine tuning and efficient code writing and proper fine-tuning of the hyperparameters
 
-
-
-
+![2_Dogs_Pic](https://github.com/jishu123456789/NetworkPruning/assets/131681225/f79011c4-ac4d-4243-ba7c-c60a34a5ad04)
+![Children_Water_Pic](https://github.com/jishu123456789/NetworkPruning/assets/131681225/5805ec60-4804-481e-849c-5a8802a6347e)
+![Children_Wedding_Pic](https://github.com/jishu123456789/NetworkPruning/assets/131681225/4db83210-5a3a-4f13-9a1b-7ce768fe7618)
 
 
 ## DatasetLink 
