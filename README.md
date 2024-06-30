@@ -38,7 +38,9 @@ The Process consisted of a 3 stage pipeline:
 - Decoder_weoght_mse_Contribution_Coeff : 0.01
 ### Results : 
 - The model sees a major drop in performance when decoder pruning is considered.
+- While it can still make sense of simple images it fails to decode sense of too much complex images.
 - Encoder Pruning did not bring much degradation in model performance. This may be due to the fact that most of the encoder weights were necessary to encode important information regarding the image.
+- This can be avoided with some more fine tuning and efficient code writing and proper fine-tuning of the hyperparameters
 
 
 
