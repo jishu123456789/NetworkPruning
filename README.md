@@ -14,15 +14,19 @@ The Process consisted of a 3 stage pipeline:
 - BatchNorm Variance was taken as the importance criteria for Pruning the ResNet Model.
 - This is a measure of how much of an input affects the ouputs and hence it was taken as the criteria for imprtance.
 - Torch Pruning Library was used for Pruning The ResNet.
+![ResNet_Pruning](https://github.com/jishu123456789/NetworkPruning/assets/131681225/d8c3be54-6c34-40c9-8a39-81a7b5eee253)
 
 ### Pruning The Transformer Encoder:
 - Width Pruning was applied to the transformers Encoder.
 - A regularization term was added to the weights of the Encoder which pruned the weights based on their magnitude
 - L2 Regularization was used for Pruning the Encoder Weights
+![Encoder_Pruning](https://github.com/jishu123456789/NetworkPruning/assets/131681225/12983e60-c1ad-46f7-830e-b3b90eca6832)
 
 ### Pruning The Transformer Decoder:
 - Depth Pruning was applied for the Transformers Decoder. This was done becuase it was found that the number of Decoder Layers affected the inference speed
 - Uniform selection of the Decoder Layers was done and the outputs of the Pruned Model were compared with the corresponding unpruned one.
+ ![Decoder_Pruning](https://github.com/jishu123456789/NetworkPruning/assets/131681225/ac6001b8-50e0-4f73-88fc-3487afe74ba6)
+
 
 ## Configurations
 ### Hyperparameters:
